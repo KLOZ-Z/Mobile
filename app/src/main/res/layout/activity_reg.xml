@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6d9cd1"
+    tools:context=".RegActivity">
+
+
+    <ImageView
+        android:id="@+id/TestView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fitness_logo_png_1" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="136dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="164dp"
+        android:text="Home Gym"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nameinp"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="296dp"
+        android:background="@drawable/custominp"
+        android:hint="Name"
+        android:inputType="text"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#706E6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/surnameinp"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/custominp"
+        android:hint="Surname"
+        android:inputType="text"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#706E6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phoneinp"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/custominp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#706E6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passinp"
+        android:layout_width="309dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="496dp"
+        android:background="@drawable/custominp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#706E6E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button17"
+        android:layout_width="307dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="112dp"
+        android:background="@drawable/custombut"
+        android:text="Sign Up"
+        android:onClick="register"
+        android:textAllCaps="false"
+        android:textColor="#6d9cd1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        android:onClick="backtoauth"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
